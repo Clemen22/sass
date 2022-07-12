@@ -1,0 +1,48 @@
+.font {
+    color: $secondarycolor;
+    font-family: 'Cairo', sans-serif;
+    font-weight: $light;
+    font-size: $textLg;
+    text-align: right;
+    text-decoration: none;
+}
+
+.bg-black {
+    background-color: $maincolor;
+;
+}
+.bg-white {
+    background-color: $secondarycolor;
+}
+
+h1 {
+    color: $secondarycolor;
+    font-family: 'Cairo', sans-serif;
+    font-weight: $light;
+    font-size: $textLg;
+    text-align: left;
+    text-decoration: none;
+}
+
+body {
+    background-color: $maincolor;
+}
+
+hr {
+    background-color: $secondarycolor;
+    opacity: 100%;
+    height: 0.3rem;
+    margin-left: start;
+}
+#w1 {
+    width: 20%;
+}
+#w2 {
+    width: 40%;
+}
+#w3 {
+    width: 60%;
+}
+#w4 {
+    width: 80%;
+}
