@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600&display=swap');
+
+.bg-black {
+    background-color: black;
+;
+}
+.bg-white {
+    background-color: purple;
+}
+
+.font {
+    color: white;
+    font-family: 'Cairo', sans-serif;
+    font-weight: 300;
+    font-size: 2rem;
+    text-align: right;
+    text-decoration: none;
+}
+.transition {
+    width: 200px;
+    background-color: black;
+}
+.transition:hover{
+    cursor: pointer;
+    background-color: white;
+    width: 500px;
+    border: solid 3px white;
+    transition: all 2s;
+}
+.grid {
+    width: 100%;
+    display: grid;
+}
+.template-areas {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 300px 600px 100px;
+    grid-template-areas:
+    "nav" "main" "footer";
+}
+#header {
+    grid-area: nav;
+}
+#medio {
+    grid-area: main;
+}
+#pie {
+    grid-area: footer;
+}
+
+h1 {
+    color: white;
+    font-family: 'Cairo', sans-serif;
+    font-weight: 300;
+    font-size: 2rem;
+    text-align: left;
+    text-decoration: none;
+}
+
+body {
+    background-color: black;
+}
+
+hr {
+    background-color: white;
+    opacity: 100%;
+    height: 0.3rem;
+    margin-left: start;
+}
+#w1 {
+    width: 20%;
+}
+#w2 {
+    width: 40%;
+}
+#w3 {
+    width: 60%;
+}
+#w4 {
+    width: 80%;
+}
+
+body nav div a img {
+    width: 12rem;
+    height: 12rem;
+    padding-left: 0.1rem;
+}
+
+main ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Cairo', sans-serif;
+    font-size: 4rem;
+    line-height: 5rem;
+    font-weight: 700;
+    text-align: left;
+}
+
+li a {
+    text-decoration: none;
+}
+
+
+
+/*media querie*/
+
+@media only screen and (min-width: 320px){
+    body {
+        grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 300px 600px 50px;
+    grid-template-areas:
+    "nav" "main" "footer";
+    }
+}
+
+/*empieza css de about.html*/
+
+.grid {
+    display: grid;
+    width: 100%;
+}
+.template-areas2 {
+    grid-template-columns: 1fr;
+    grid-template-rows: 300px 600px 50px;
+    grid-template-areas:
+    "nav" "info" "footer";
+}
+
+#header {
+    grid-area: nav;
+}
+#about {
+    grid-area: info;
+}
+#pie2 {
+    grid-area: footer;
+}
+
+body nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Cairo', sans-serif;
+}
+
+h2 {
+    text-align: left;
+    font-family: 'Cairo', sans-serif;
+    color: white;
+}
+body nav ul li {
+    display: inline-block;
+}
+fieldset {
+    background-color: white;
+    margin-left: 2cm;
+    margin-right: 2cm;
+    
+}
+
+.legend1 {
+    margin-bottom: 0px;
+    margin-left: 16px;
+}
+
+/*empieza css de projects.html*/
+
+table {
+    font-family: 'Cairo', sans-serif;
+    color: white;
+}
+
+/*empieza css renders.html*/
+
+.rendersflex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+article img {
+    width: 500px;
+    height: 300px;
+}
+
+section h2 form fieldset {
+    font-family: 'Cairo', sans-serif;
+    color: white;
+}
+.img-size {
+    width: 8rem;
+    height: 8rem;
+    padding-left: 0.1rem;
+
+}
+
+#img-size {
+    width: 500px;
+    height: 400px;
+}
