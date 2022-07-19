@@ -7,13 +7,6 @@
     text-decoration: none;
 }
 
-.bg-black {
-    background-color: $maincolor;
-;
-}
-.bg-white {
-    background-color: $secondarycolor;
-}
 
 h1 {
     color: $secondarycolor;
@@ -45,4 +38,29 @@ hr {
 }
 #w4 {
     width: 80%;
+}
+
+$paleta: (
+    "uno": black,
+    "dos": white,
+);
+
+.bg-black {
+    background-color: map-get($map: $paleta, $key: "uno");
+}
+
+.bg-white {
+    background-color: map-get($map: $paleta, $key: "dos");
+}
+
+@mixin link-style () {
+    font-family: 'Cairo', sans-serif;
+    font-weight: $light;
+    font-size: $textXl;
+    text-align: left;
+    text-decoration: none;
+}
+
+.links {
+    @include link-style();
 }
