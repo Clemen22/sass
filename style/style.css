@@ -1,4 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Cairo:wght@400;600&display=swap");
+header .navbar {
+  padding: 0; }
+  header .navbar .container-fluid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; }
+    header .navbar .container-fluid .logo {
+      width: 60%; }
+
 .font {
   color: white;
   font-family: 'Cairo', sans-serif;
@@ -47,4 +57,14 @@ hr {
   font-weight: 300;
   font-size: 3rem;
   text-align: left;
-  text-decoration: none; }
+  text-decoration: none;
+  color: white; }
+
+.rendersflex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
+.img-size {
+  width: 450px;
+  height: 250px; }

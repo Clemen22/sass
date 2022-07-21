@@ -1,0 +1,14 @@
+header {
+    .navbar {
+        padding: 0;
+        .container-fluid {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            .logo {
+                width: 60%;
+            }    
+        }
+    }
+}

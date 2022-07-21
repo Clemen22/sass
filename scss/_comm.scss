@@ -59,8 +59,20 @@ $paleta: (
     font-size: $textXl;
     text-align: left;
     text-decoration: none;
+    color: map-get($map: $paleta, $key: "dos")
 }
 
 .links {
     @include link-style();
+}
+
+.rendersflex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.img-size {
+    width: 450px;
+    height: 250px;
 }
