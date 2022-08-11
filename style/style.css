@@ -46,6 +46,13 @@ hr {
 #w4 {
   width: 80%; }
 
+#w5 {
+  width: 100%;
+  height: 0.1rem; }
+
+#w6 {
+  width: 100%; }
+
 .bg-black {
   background-color: black; }
 
@@ -68,3 +75,6 @@ hr {
 .img-size {
   width: 450px;
   height: 250px; }
+
+.espaciado {
+  padding-left: 30rem; }
